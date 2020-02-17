@@ -1,12 +1,12 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
 import { connect } from 'react-redux'
+import PropTypes from 'prop-types'
+import React, { Component } from 'react'
+
 import {
   selectSubreddit,
   fetchPostsIfNeeded,
   invalidateSubreddit
-} from '../actions/actions'
-
+} from '../actions'
 import Picker from '../components/Picker'
 import Posts from '../components/Posts'
 
